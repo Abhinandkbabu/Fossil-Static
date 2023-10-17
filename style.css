@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+}
+.nav-head{
+    width: 100%;
+    height: 140px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+
+}
+.nav-top{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    padding-top: 00px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-option{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-option select{
+    border: none;
+    width: 85px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.nav-option a{
+    text-decoration: none;
+    color: black;
+    margin-right:20px ;
+}
+.nav-option img{
+    margin-right: 20px;
+}
+.nav-bottom{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav-bottom .list ul li{
+    display: inline-block;
+    padding: 5px;
+}
+.list{
+    height: 65%;
+    justify-content: center;
+    margin-left: 270px;
+    margin-bottom: 30px;
+}
+.list ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242424;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding-top: 20%;
+}
+.logo{
+    width: 100px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 25px;
+    letter-spacing: .5px;
+}
+.page-1{
+    width: 100%;
+    height: auto;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.index-parent{
+    display: grid;
+    height: 2916px;
+    grid-template-columns: 50% 50%;
+
+}
+.index-1{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw91a013bf/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero02.1.jpg);
+    background-size: 100%;
+}
+.index-2{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw82295315/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero02.2.jpg);
+    background-size: 100%;
+}
+.index-3{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw8488ee18/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero03.1.jpg);
+    background-size: 100%;
+}
+.index-4{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dwe803abf7/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero03.2.jpg);
+    background-size: 100%;
+}
+.index-5{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw026eceab/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero04.1.jpg);
+    background-size: 100%;
+}
+.index-6{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw3d068f32/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero04.2.jpg);
+    background-size: 100%;
+}
+.index-7{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw0a0fa53d/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero05.1.jpg);
+    background-size: 100%;
+}
+.index-8{
+    background-image: url(https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw23067d0d/2023/HO23/set_10162023_in_hp/10.16_FS_IN_FA23_Ecom_HP_Refresh_desktop_hero05.2.jpg);
+    background-size: 100%;
+    
+}
+.video-bottom{
+    width: 100%;
+    height: auto;
+}
+.video-2{
+    width: 100%;
+}
+.category{
+    width: 92%;
+    height: 220px;
+    padding-left: 130px;
+    padding-top: 70px;
+}
+.category button{
+    border-color: black;
+    border-width: 3px;
+    background-color: #fff;
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+}
+.category a{
+    color: black;
+    text-decoration: none;
+}
+.bottom-para{
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 530px; ;
+    background-color: rgb(241, 241, 234);
+    padding-left: 10px;
+}
+/* .footer-parent{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100px;
+    
+} */
+.buttons{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 240px;
+    height: 35px;
+    background-color: #fff;
+}
+.buttons1{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+}
+.buttons:hover{
+    color:#fff;
+    background:black;
+}
+.buttons1:hover{
+    color:#fff;
+    background:black;
+}
+.index-2-sub{
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.index-2-sub a{
+    color: black;
+    text-decoration: none;
+}
+.index-2-sub h4{
+    letter-spacing: 5px;
+}
+.index-2-sub a:hover{
+    color: #fff;
+}
+.footer-2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-2 li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 13px;
+}
+.footer-1 input{
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+}
+.footer-1 button{
+    background-color: black;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.footer-1 a{
+    color: white;
+    text-decoration: none;
+}
+.icon-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    height: 120px;
+}
+.footer-container{
+    margin-left:200px ;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.icons{
+    height: 40px;
+    width: 40px;
+}
+.botom-icon{
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+}
+.footer-3-bottom{
+    margin-left: 55px;
+}
+.footer-3-bottom a{
+    color: black;
+}
